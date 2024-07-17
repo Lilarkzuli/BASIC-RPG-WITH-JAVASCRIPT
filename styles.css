@@ -1,0 +1,72 @@
+body{
+    background-color: slategray;
+    display:flex;
+}
+
+#container{
+    flex:5;
+    border: 1px solid black;
+    padding-left: 0.2em;
+}
+#texto{
+
+    font-size: 1.1em;
+}
+#textoInventario{
+    font-family: fantasy;
+    
+}
+
+#Objeto{
+
+    
+
+}
+#class_pelea{
+    background-color: red;
+    display: none;
+    color:white;
+    border: 1px solid black;
+    padding: 0.2em;
+    margin-bottom: 0.6em; 
+}
+#infoJugador{
+    padding: 0.2em;
+    background-color: rgb(87, 43, 11);
+    font-size: 1em;
+    color:aliceblue
+}
+
+#button1 , #button2, #button3 {
+    cursor: pointer;
+    color: #0a0a23;
+    background-color: #feac32;
+    background-image: linear-gradient(#fecc4c, #ffac33);
+    border: 3px solid #feac32;
+  }
+#titulo{
+    font-size: 1.6em;
+
+}
+#lateral{
+    flex:1;
+    border: 1px solid black;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#Listamagias p{
+    display: none;
+
+}
+#button4 ,#button5, #button6{
+    display: none;
+    cursor: pointer;
+    margin:0.3em;
+
+
+
+   
+}
